@@ -1,0 +1,13 @@
+.dropdown {
+    display: flex; /* Start with dropdown hidden */
+    position: absolute;
+    left: 0;
+    top: 100%; /* Positioned at the bottom of the nav item */
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 2px 2px 2px 2px var(--black-8);
+    padding: 5px;
+    z-index: 1000; /* Ensure it sits on top of other elements */
+}
