@@ -5,16 +5,15 @@ import './App.css'
 
 function App() {
   const dropdownItems = [
-    {header: "Farm", subheader: "Farm Assets", link: "/Farm", logo: "src/assets/Farm.png"},
-    {header: "IO", subheader: "Inputs & Outputs", link: "/IO", logo: "src/assets/IO.png"},
-    {header: "Market", subheader: "Traded Assets", link: "/Market", logo: "src/assets/Market.png"},
-    {header: "Currencies", subheader: "All Assets", link: "/Currencies", logo: "src/assets/Currencies.png"}
+    {header: "Resume", subheader: "My Resume", link: "/resume", logo: "src/assets/Resume.png"},
+    {header: "Projects", subheader: "Personal Projects", link: "/projects", logo: "src/assets/Project.png"},
+    {header: "Blog", subheader: "My Blog", link: "/blog", logo: "src/assets/Blog.png"}
   ]
   return (
     <div>
-    <NavBar logo="src/assets/logo.png">
+    <NavBar logo="src/assets/Brady_Mitchelmore.png">
       <BaseNavItem text="Menu" link="/menu" dropdown={true} dropdownItems={dropdownItems}/>
-      <BaseNavItem text="About" link="/about" dropdown={false} />
+      <BaseNavItem text="About Me" link="/about" dropdown={false} />
     </NavBar>
     </div>)
 }
