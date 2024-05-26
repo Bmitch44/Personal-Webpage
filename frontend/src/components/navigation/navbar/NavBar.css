@@ -20,6 +20,8 @@
 
 .navbar-logo {
     display: flex;
+    width: 40px;
+    height: 40px;
     padding: 16px 0px;
     align-items: center;
     gap: 5px;

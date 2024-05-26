@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import BaseNavItem from './components/navigation/navbar/NavItems/BaseNavItem'
 import NavBar from './components/navigation/navbar/NavBar'
+import Hero from './components/body/hero/Hero'
 import './App.css'
 
 function App() {
@@ -11,10 +12,14 @@ function App() {
   ]
   return (
     <div>
-    <NavBar logo="src/assets/Brady_Mitchelmore.png">
-      <BaseNavItem text="Menu" link="/menu" dropdown={true} dropdownItems={dropdownItems}/>
-      <BaseNavItem text="About Me" link="/about" dropdown={false} />
+    <NavBar logo="src/assets/Logo.png">
+      {/* <BaseNavItem text="Menu" link="/menu" dropdown={true} dropdownItems={dropdownItems}/> */}
+      <BaseNavItem text="Resume" link="/resume" dropdown={false} />
+      <BaseNavItem text="Projects" link="/projects" dropdown={false} />
+      <BaseNavItem text="Blog" link="/blog" dropdown={false} />
+      <BaseNavItem text="About" link="/about" dropdown={false} bold={true}/>
     </NavBar>
+    <Hero />
     </div>)
 }
 
