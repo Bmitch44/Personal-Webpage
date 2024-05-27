@@ -16,6 +16,10 @@
     background-color: var(--black-8);
 }
 
+.bold:hover {
+    background-color: #37393b;
+}
+
 .nav-text {
     text-decoration: none;
     color: var(--black);
@@ -33,10 +37,6 @@
 
 .bold-text {
     color: #fff;
-}
-
-.nav-item:hover .bold-text {
-    color: #000;
 }
 
 .dropdown-arrow {

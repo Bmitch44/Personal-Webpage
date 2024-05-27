@@ -11,7 +11,7 @@ function App() {
     {header: "Blog", subheader: "My Blog", link: "/blog", logo: "src/assets/Blog.png"}
   ]
   return (
-    <div>
+    <div className='website'>
     <NavBar logo="src/assets/Logo.png">
       {/* <BaseNavItem text="Menu" link="/menu" dropdown={true} dropdownItems={dropdownItems}/> */}
       <BaseNavItem text="Resume" link="/resume" dropdown={false} />
