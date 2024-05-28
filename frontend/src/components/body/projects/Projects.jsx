@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Projects.css';
+import ProjectModal from '../projectModal/ProjectModal';
 
 const Projects = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+
   const projects = [
     {
       title: 'Personal Webpage',
@@ -35,12 +39,22 @@ const Projects = () => {
     }
   ];
 
+  const handleProjectClick = (project) => {
+    setSelectedProject(project);
+    setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setSelectedProject(null);
+  };
+
   return (
     <div className="projects-container">
-      <h2>My Projects</h2>
+      <h2 className='project-title'>My Projects</h2>
       <div className="projects-grid">
         {projects.map((project, index) => (
-          <div className="project-card-large" key={index}>
+          <div className="project-card-large" key={index} onClick={() => handleProjectClick(project)}>
             <div className="project-details-large">
               <h3>{project.title}</h3>
               <p>{project.description}</p>
@@ -50,6 +64,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <ProjectModal show={showModal} onClose={closeModal} project={selectedProject} />
     </div>
   );
 }
