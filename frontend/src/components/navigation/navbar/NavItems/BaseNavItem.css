@@ -33,6 +33,8 @@
     position: relative;
     white-space: nowrap;
     width: fit-content;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
 }
 
 .bold-text {
@@ -47,8 +49,10 @@
     transform: rotate(90deg);
   }
 
-.active {
-    text-decoration: underline;
-    text-underline-offset: 0.3em;
-    text-decoration-thickness: 0.2em;
+.nav-text.active {
+    border-bottom: 3px solid #000;
+}
+
+.nav-text.active-white {
+    border-bottom: 3px solid #fff;
 }

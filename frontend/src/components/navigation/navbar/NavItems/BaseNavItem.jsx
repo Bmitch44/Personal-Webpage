@@ -4,14 +4,15 @@ import Dropdown from '../dropdown/Dropdown';
 import './BaseNavItem.css';
 import ForwardArrow from './Forward.png';
 
-const BaseNavItem = ({ text, link, dropdown, dropdownItems, bold}) => {
+const BaseNavItem = ({ text, link, isActive, dropdown, dropdownItems, bold}) => {
     const [showDropdown, setShowDropdown] = useState(false);
-
+    const activeClass = isActive ? (bold ? 'active-white' : 'active') : '';
+    console.log(activeClass);
     return (
     <div className={`nav-item ${bold && 'bold'}`} onMouseEnter={() => setShowDropdown(true)} onMouseLeave={() => setShowDropdown(false)}>
-        <NavLink to={link} className={`nav-text ${bold ? 'bold-text' : ''}`} activeClassName='active'>
+        <a href={link} className={`nav-text ${bold ? `bold-text` : ''} ${activeClass}`}>
             {text}
-        </NavLink>
+        </a>
         {dropdown && <img src={ForwardArrow} alt="Dropdown Arrow" className='dropdown-arrow' />}
         {dropdown && showDropdown && <Dropdown items={dropdownItems} />}
     </div>

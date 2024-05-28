@@ -1,28 +1,23 @@
 /* Import SF Pro Font */
 @import url('https://fonts.googleapis.com/css2?family=SF+Pro:wght@400;600;700&display=swap');
 
-body {
-  font-family: 'SF Pro', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
 .resume-container {
-  max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  max-width: var(--navbar-width);
+  background-color: #fff;
+  border-radius: 15px;
+  width: 100%;
+  margin: 30px 0 30px 0;
+  padding: 10px 0 30px 0;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 
 .resume-card {
   background: white;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   padding: 20px;
+  margin: 20px 30px 0 30px;
 }
 
 .resume-header {

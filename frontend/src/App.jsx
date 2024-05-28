@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import BaseNavItem from './components/navigation/navbar/NavItems/BaseNavItem';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavBar from './components/navigation/navbar/NavBar';
 import Hero from './components/body/hero/Hero';
 import Resume from './components/body/resume/Resume';
@@ -19,13 +18,7 @@ function App() {
   return (
     <Router>
       <div className='website'>
-        <NavBar logo="src/assets/Logo.png">
-          <BaseNavItem text="Home" link="/" dropdown={false} />
-          <BaseNavItem text="Resume" link="/resume" dropdown={false} />
-          <BaseNavItem text="Projects" link="/projects" dropdown={false} />
-          <BaseNavItem text="Blog" link="/blog" dropdown={false} />
-          <BaseNavItem text="About" link="/about" dropdown={false} bold={true} />
-        </NavBar>
+        <NavBar logo="src/assets/Logo.png"></NavBar>
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/resume" element={<Resume />} />
