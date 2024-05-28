@@ -4,6 +4,7 @@ import BaseNavItem from './components/navigation/navbar/NavItems/BaseNavItem';
 import NavBar from './components/navigation/navbar/NavBar';
 import Hero from './components/body/hero/Hero';
 import Resume from './components/body/resume/Resume';
+import Projects from './components/body/projects/Projects';
 import './App.css';
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/resume" element={<Resume />} />
-          {/* Add more routes here as needed */}
+          <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
     </Router>
