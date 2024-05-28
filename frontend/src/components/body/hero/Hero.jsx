@@ -37,17 +37,40 @@ const Hero = () => {
     }
   ];
 
+  const skills = [
+    { name: 'Python', logo: '/src/assets/python.png' },
+    { name: 'JavaScript', logo: '/src/assets/javascript.png' },
+    { name: 'React', logo: '/src/assets/react.png' },
+    { name: 'Java', logo: '/src/assets/java.png' },
+    { name: 'C', logo: '/src/assets/c.png' },
+    { name: 'SQL', logo: '/src/assets/sql.png' },
+    { name: 'HTML', logo: '/src/assets/html.png' },
+    { name: 'CSS', logo: '/src/assets/css.png' },
+    { name: 'LaTeX', logo: '/src/assets/latex.png' },
+    // Add more skills and logos here
+  ];
+
   return (
     <div className="hero-container">
       <div className="hero-content">
         <div className="hero-text">
           <h1>Hi, I'm Brady Mitchelmore</h1>
-          <p>Welcome to my personal website. I'm a Computer Science student with a passion for smart systems and data analysis.</p>
+          <p>Welcome to my personal website! I'm a dedicated Computer Science student with a keen interest in smart systems and data analysis, constantly exploring innovative solutions and pushing the boundaries of technology.</p>
         </div>
         <div className="hero-image">
           <img src='src/assets/personal.jpeg' alt="Brady Mitchelmore" />
         </div>
       </div>
+      <div className="skills-container">
+        <h2>Languages</h2>
+        <div className="skills-grid">
+          {skills.map((skill, index) => (
+            <div className="skill-item" key={index}>
+              <img src={skill.logo} alt={skill.name} className="skill-logo" />
+            </div>
+          ))}
+        </div>
+    </div>
       <div className="projects" id="projects">
         <div className="project-card">
             <h1>Featured Projects</h1>

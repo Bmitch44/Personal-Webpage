@@ -168,3 +168,56 @@
 .tools strong {
     color: #333;
 }
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #fff;
+    border-radius: 15px;
+    font-family: 'SF Pro', sans-serif;
+    width: var(--navbar-width);
+    margin: 15px 0 15px 0;
+}
+
+.skills-container h2 {
+    font-size: 1.8em;
+    margin: 40px 0 20px 30px;
+    color: #333;
+    text-decoration: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-thickness: 0.1em;
+}
+
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin: 0 40px 40px 30px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #fff;
+    margin: 0 20px 0 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+    width: 30px;
+    height: 30px;
+    text-align: left;
+    gap: 10px;
+}
+
+.skill-item:hover {
+    background-color: #f0f0f0;
+}
+
+.skill-logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}

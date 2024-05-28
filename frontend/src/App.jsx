@@ -5,6 +5,8 @@ import NavBar from './components/navigation/navbar/NavBar';
 import Hero from './components/body/hero/Hero';
 import Resume from './components/body/resume/Resume';
 import Projects from './components/body/projects/Projects';
+import Blogs from './components/body/blogs/Blogs';
+import About from './components/body/about/About';
 import './App.css';
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
     <Router>
       <div className='website'>
         <NavBar logo="src/assets/Logo.png">
+          <BaseNavItem text="Home" link="/" dropdown={false} />
           <BaseNavItem text="Resume" link="/resume" dropdown={false} />
           <BaseNavItem text="Projects" link="/projects" dropdown={false} />
           <BaseNavItem text="Blog" link="/blog" dropdown={false} />
@@ -27,6 +30,8 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blogs />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>

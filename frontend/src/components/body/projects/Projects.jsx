@@ -21,7 +21,18 @@ const Projects = () => {
       details: 'Detailed information about the Reviews App Team Project. Include the tech stack, features, and any other relevant information.',
       link: '#'
     },
-    // Add more projects here
+    {
+      title: 'Textract Demo',
+      description: 'An unstructured document analysis tool that I built using AWS Textract and OpenAI GPT-3.',
+      details: 'Detailed information about the Textract Demo project. Include the tech stack, features, and any other relevant information.',
+      link: '#'
+    },
+    {
+      title: 'CropBytes GUI',
+      description: 'A GUI for the CropBytes project that I built using Python and tkinter.',
+      details: 'Detailed information about the CropBytes GUI project. Include the tech stack, features, and any other relevant information.',
+      link: '#'
+    }
   ];
 
   return (
