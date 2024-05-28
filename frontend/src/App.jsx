@@ -18,7 +18,6 @@ function App() {
     <Router>
       <div className='website'>
         <NavBar logo="src/assets/Logo.png">
-          {/* <BaseNavItem text="Menu" link="/menu" dropdown={true} dropdownItems={dropdownItems}/> */}
           <BaseNavItem text="Resume" link="/resume" dropdown={false} />
           <BaseNavItem text="Projects" link="/projects" dropdown={false} />
           <BaseNavItem text="Blog" link="/blog" dropdown={false} />

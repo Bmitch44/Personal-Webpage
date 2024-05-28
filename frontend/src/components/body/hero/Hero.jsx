@@ -6,28 +6,32 @@ const Hero = () => {
     {
         title: 'Personal Webpage',
         description: 'This is my personal website. It was built using React and Python, showcasing my skills and projects.',
-        link: '#'
+        tools: 'React, Python, Sqlite3, Javascript, HTML, CSS',
+        link: '/'
     },
     {
         title: 'Jarvis',
         description: 'This is a Apple Shortcut that I built to automate my daily tasks. It was built using Apple Shortcuts.',
-        link: '#'
+        tools: 'Apple Shortcuts, Groq API, Notion API',
+        link: '/projects'
     },
     {
         title: 'Reviews App Team Project',
         description: 'This is a team project for a reviews app. It was built using Python and Bottle, showcasing our teamwork and skills.',
-        link: '#'
+        tools: 'Python, Bottle, Sqlite3, HTML, CSS',
+        link: '/projects'
     },
     {
         title: 'Textract Demo',
         description: 'An unstructured document analysis tool that I built using AWS Textract and OpenAI GPT-3.',
-        link: '#'
+        tools: 'Python, AWS Textract, OpenAI API, Flask, HTML, CSS',
+        link: '/projects'
     },
   ];
 
   const blogs = [
     {
-        title: 'Coming Soon',
+        title: 'Coming Soon...',
         description: 'This blog post is coming soon. Stay tuned for more updates.',
         link: '#'
     }
@@ -48,13 +52,16 @@ const Hero = () => {
         <div className="project-card">
             <h1>Featured Projects</h1>
             {projects.map((project, index) => (
-            <div className="project-card-content" key={index}>
+            <a href={project.link} className="project-card-content" key={index}>
                 <div className="project-details">
-                <h3>{project.title}</h3>
-                <p>{project.description}</p>
-                <a href={project.link} className="project-link">Learn More</a>
+                    <h3>{project.title}</h3>
+                    <p>{project.description}</p>
+                    <div className='tools'>
+                        <p><strong>Tools:</strong></p>
+                        <p><i>{project.tools}</i></p>
+                    </div>
                 </div>
-            </div>
+            </a>
             ))}
         </div>
         <div className="project-card">
@@ -64,7 +71,6 @@ const Hero = () => {
                 <div className="project-details">
                     <h3>{blog.title}</h3>
                     <p>{blog.description}</p>
-                    <a href={blog.link} className="project-link">Read More</a>
                 </div>
             </div>
             ))}
