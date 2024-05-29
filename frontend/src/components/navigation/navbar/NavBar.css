@@ -14,7 +14,8 @@
 
 .navbar-contents {
     display: flex;
-    width: var(--navbar-width);
+    max-width: var(--navbar-width);
+    width: 95%;
     justify-content: space-between;
     align-items: center;
     flex: 1 0 0;
@@ -33,4 +34,42 @@
     display: flex;
     align-items: flex-start;
     gap: 12px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        height: 50px;
+    }
+
+    .navbar-contents {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .navbar-logo {
+        padding: 10px 0;
+    }
+
+    .navbar-items {
+        display: none;
+    }
+};
+
+@media (max-width: 480px) {
+    .navbar {
+        height: 40px;
+    }
+
+    .navbar-contents {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .navbar-logo {
+        padding: 10px 0;
+    }
+
+    .navbar-items {
+        display: none;
+    }
 }
