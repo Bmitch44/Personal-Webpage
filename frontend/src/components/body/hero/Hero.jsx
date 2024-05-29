@@ -38,14 +38,14 @@ const Hero = () => {
   ];
 
   const skills = [
-    { name: 'Python', logo: '/src/assets/python.png' },
-    { name: 'JavaScript', logo: '/src/assets/javascript.png' },
-    { name: 'Java', logo: '/src/assets/java.png' },
-    { name: 'C', logo: '/src/assets/c.png' },
-    { name: 'SQL', logo: '/src/assets/sql.png' },
-    { name: 'HTML', logo: '/src/assets/html.png' },
-    { name: 'CSS', logo: '/src/assets/css.png' },
-    { name: 'LaTeX', logo: '/src/assets/latex.png' },
+    { name: 'Python', logo: '/python.png' },
+    { name: 'JavaScript', logo: '/javascript.png' },
+    { name: 'Java', logo: '/java.png' },
+    { name: 'C', logo: '/c.png' },
+    { name: 'SQL', logo: '/sql.png' },
+    { name: 'HTML', logo: '/html.png' },
+    { name: 'CSS', logo: '/css.png' },
+    { name: 'LaTeX', logo: '/latex.png' },
     // Add more skills and logos here
   ];
 
@@ -57,7 +57,7 @@ const Hero = () => {
           <p>Welcome to my personal website! I'm a dedicated Computer Science student with a keen interest in smart systems and data analysis, constantly exploring innovative solutions and pushing the boundaries of technology.</p>
         </div>
         <div className="hero-image">
-          <img src='src/assets/personal.jpeg' alt="Brady Mitchelmore" />
+          <img src='/personal.jpeg' alt="Brady Mitchelmore" />
         </div>
       </div>
       <div className="skills-container">

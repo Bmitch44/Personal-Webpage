@@ -10,15 +10,15 @@ import './App.css';
 
 function App() {
   const dropdownItems = [
-    { header: "Resume", subheader: "My Resume", link: "/resume", logo: "src/assets/Resume.png" },
-    { header: "Projects", subheader: "Personal Projects", link: "/projects", logo: "src/assets/Project.png" },
-    { header: "Blog", subheader: "My Blog", link: "/blog", logo: "src/assets/Blog.png" }
+    { header: "Resume", subheader: "My Resume", link: "/resume", logo: "/Resume.png" },
+    { header: "Projects", subheader: "Personal Projects", link: "/projects", logo: "/Project.png" },
+    { header: "Blog", subheader: "My Blog", link: "/blog", logo: "/Blog.png" }
   ];
 
   return (
     <Router>
       <div className='website'>
-        <NavBar logo="src/assets/Logo.png"></NavBar>
+        <NavBar logo="/Logo.png"></NavBar>
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="/resume" element={<Resume />} />
