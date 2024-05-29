@@ -16,7 +16,7 @@
     position: relative;
     align-items: left;
     background: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     max-width: var(--navbar-width);
     width: 100%;
@@ -31,10 +31,16 @@
 
   .modal-close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 30px;
+    right: 30px;
     font-size: 24px;
     cursor: pointer;
+  }
+
+  .text {
+    margin: 10px 0 10px 0;
+    font-size: 1.0em;
+    color: #333;
   }
   
   .modal-link {

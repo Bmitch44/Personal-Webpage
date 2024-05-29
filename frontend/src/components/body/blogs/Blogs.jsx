@@ -6,7 +6,7 @@ const Blogs = () => {
     {
       title: 'Coming Soon',
       description: 'This blog post is coming soon. Stay tuned for more updates.',
-      details: 'Detailed information about the Coming Soon blog post. Include the tech stack, features, and any other relevant information.',
+      details: 'Details',
       link: '#'
     }
   ];

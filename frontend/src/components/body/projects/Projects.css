@@ -66,9 +66,6 @@
     flex-direction: row;
     justify-content: space-between;
     opacity: 0;
-  }
-
-  .expand {
     font-size: 0.8em;
     color: #909090;
     margin: 0;
