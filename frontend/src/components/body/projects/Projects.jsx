@@ -45,13 +45,13 @@ const Projects = () => {
     },
     {
       "title": "CropBytes GUI",
-      "description": "A GUI for the CropBytes project that I built using Python and tkinter.",
-      "details": "The GUI provides an interface for the CropBytes project, built using Python and tkinter. It simplifies interactions with the underlying functionality of the CropBytes project.",
-      "tools": "Python, tkinter, SQLite, HTML, CSS",
+      "description": "A comprehensive GUI application for the CropBytes crypto farming game, built using Python and tkinter.",
+      "details": "This GUI application was developed to interact with the CropBytes API, enabling users to track their assets, production, and farm profitability. Additionally, it allows users to make trades directly within the GUI on the CropBytes in-game market.",
+      "tools": "Python, tkinter, Postman, CropBytes API, SQLite, HTML, CSS",
       "link": "#",
-      "expanded": "The CropBytes GUI project involved creating a graphical user interface using Python's tkinter library. This interface was designed to simplify user interactions with the underlying functionalities of the CropBytes project. The development process included setting up the GUI components, linking them with backend logic, and ensuring smooth data handling using SQLite. One of the significant challenges was designing an intuitive interface with tkinter, which required careful planning and iteration. The project demonstrates my proficiency in GUI development and my ability to enhance user experience through thoughtful design and implementation.",
+      "expanded": "The CropBytes GUI project involved reverse engineering the CropBytes API using Postman to understand the various endpoints and their functionalities. Once I had a comprehensive understanding of the API, I developed a GUI application using Python and tkinter. This application allows users to track their assets, production levels, and overall farm profitability in real-time. Furthermore, it includes features for making trades directly within the GUI, interacting seamlessly with the CropBytes in-game market. The application is designed to enhance the user experience by providing a centralized platform to manage all aspects of the CropBytes farming game. One of the main challenges was ensuring secure and efficient API calls, which I achieved through careful management of API keys and request handling.",
       "video": null
-    }
+    }    
 ];
   
   const handleProjectClick = (project) => {

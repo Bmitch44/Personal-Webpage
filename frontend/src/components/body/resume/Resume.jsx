@@ -21,7 +21,7 @@ const Resume = () => {
           <p><strong>Memorial University of Newfoundland</strong></p>
           <p>Bachelor of Science, Computer Science (Smart Systems)</p>
           <p>Expected Graduation Date: April 2026</p>
-          <p>Average: 81%</p>
+          <p>Average: 80%</p>
         </div>
       </div>
 
@@ -84,6 +84,26 @@ const Resume = () => {
               <li>Completed Keyin College Python Bootcamp.</li>
               <li>Navigated a Virtual Maze with a provided Robot Control Package.</li>
               <li>Developed a Command Line Blackjack Game.</li>
+            </ul>
+          </div>
+          <div className="job">
+            <h3>Warehouse Associate</h3>
+            <p><em>Canadian Tire</em> | St. John’s, NL, Canada</p>
+            <p>June 2020 - June 2021</p>
+            <ul>
+            <li>Organized stock in the warehouse.</li>
+            <li>Greeted and Assisted customers with their needs.</li>
+            <li>Used inventory management software to keep track of stock.</li>
+            </ul>
+          </div>
+          <div className="job">
+            <h3>Hockey Camp Assistant</h3>
+            <p><em>Blizzard Hockey</em> | St. John’s, NL, Canada</p>
+            <p>July 2018</p>
+            <ul>
+            <li>Assisted instructors in teaching the kids new skills</li>
+            <li>Supervised kids and assisted them with any of their needs </li>
+            <li>Demonstrated drills and off ice exercises</li>
             </ul>
           </div>
         </div>

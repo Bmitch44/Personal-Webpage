@@ -40,7 +40,6 @@ const Hero = () => {
   const skills = [
     { name: 'Python', logo: '/src/assets/python.png' },
     { name: 'JavaScript', logo: '/src/assets/javascript.png' },
-    { name: 'React', logo: '/src/assets/react.png' },
     { name: 'Java', logo: '/src/assets/java.png' },
     { name: 'C', logo: '/src/assets/c.png' },
     { name: 'SQL', logo: '/src/assets/sql.png' },
