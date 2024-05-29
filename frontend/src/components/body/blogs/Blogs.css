@@ -6,6 +6,7 @@
     border-radius: 15px;
     font-family: 'SF Pro', sans-serif;
     width: var(--navbar-width);
+    padding: 0 0 20px 0;
     margin: 30px 0 30px 0;
 }
   
@@ -46,6 +47,40 @@
     margin-top: 15px;
     text-align: left;
 }
+
+.blog-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.expand {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: top;
+    opacity: 0;
+    font-size: 0.8em;
+    color: #909090;
+    margin: 0;
+    transition: opacity 0.3s ease;
+}
+
+  .arrow {
+    opacity: 0;
+    color: #909090;
+    font-size: 1.0em;
+    transition: opacity 0.3s ease;
+    rotate: -45deg;
+  }
+
+  .blog-card-large:hover .expand {
+    opacity: 1;
+  }
+
+  .blog-card-large:hover .arrow {
+    opacity: 1;
+  }
   
 .blog-details-large h3 {
     font-size: 1.5em;

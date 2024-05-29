@@ -7,7 +7,7 @@ const Hero = () => {
         title: 'Personal Webpage',
         description: 'This is my personal website. It was built using React and Python, showcasing my skills and projects.',
         tools: 'React, Python, Sqlite3, Javascript, HTML, CSS',
-        link: '/'
+        link: '/projects'
     },
     {
         title: 'Jarvis',
@@ -77,7 +77,10 @@ const Hero = () => {
             {projects.map((project, index) => (
             <a href={project.link} className="project-card-content" key={index}>
                 <div className="project-details">
-                    <h3>{project.title}</h3>
+                    <div className="project-title-container">
+                      <h3>{project.title}</h3>
+                      <span className="arrow">&#8594;</span> {/* Right arrow character */}
+                    </div>
                     <p>{project.description}</p>
                     <div className='tools'>
                         <p><strong>Tools:</strong></p>

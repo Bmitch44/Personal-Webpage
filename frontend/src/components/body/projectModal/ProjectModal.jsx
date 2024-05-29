@@ -13,6 +13,11 @@ const ProjectModal = ({ show, onClose, project }) => {
         <h2 className='title'>{project.title}</h2>
         <p>{project.description}</p>
         <p>{project.details}</p>
+        <p>{project.expanded}</p>
+        <div className='tools'>
+            <p><strong>Tools:</strong></p>
+            <p><i>{project.tools}</i></p>
+        </div>
       </div>
     </div>
   );

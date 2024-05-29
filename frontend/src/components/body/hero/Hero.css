@@ -122,6 +122,24 @@
     text-align: center;
 }
 
+.project-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.arrow {
+    opacity: 0;
+    color: #333;
+    font-size: 1.5em;
+    transition: opacity 0.3s ease;
+    rotate: -45deg;
+}
+
+.project-card-content:hover .arrow {
+    opacity: 1; 
+}
+
 .project-details h3 {
     display: flex;
     justify-content: left;
@@ -143,7 +161,7 @@
     justify-content: left;
     text-align: left;
     font-size: 0.8em;
-    margin: 0 0 0.2em 0;
+    margin: 0 0 0.5em 0;
     color: #666;
 }
 
@@ -160,7 +178,7 @@
     flex-direction: row;
     justify-content: left;
     align-items: left;
-    margin: 0.5em 0 0 0;
+    margin: 1em 0 0 0;
     gap: 8px;
     font-size: 0.8em;
 }
