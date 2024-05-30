@@ -21,6 +21,33 @@
     max-width: var(--navbar-width);
     width: 95%;
 }
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    height: 35px;
+    width: 75px;
+}
+
+.social-link {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-img {
+    width: 30px;
+    height: 30px;
+}
+
+.social-img:hover {
+    width: 35px;
+    height: 35px;
+}
+
   
 .hero-text {
     max-width: 650px;

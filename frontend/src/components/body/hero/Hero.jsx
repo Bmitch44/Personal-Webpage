@@ -55,6 +55,14 @@ const Hero = () => {
                 <div className="hero-text">
                     <h1>Hi, I'm Brady Mitchelmore</h1>
                     <p>Welcome to my personal website! I'm a dedicated Computer Science student with a keen interest in smart systems and data analysis, constantly exploring innovative solutions and pushing the boundaries of technology.</p>
+                    <div className='socials'>
+                        <a className='social-link' href="https://www.linkedin.com/in/brady-mitchelmore-1b3b11195/" target="_blank" rel="noreferrer">
+                            <img className='social-img' src='/linkedin.png' alt='LinkedIn' />
+                        </a>
+                        <a className='social-link' href="https://www.github.com/Bmitch44" target="_blank" rel="noreferrer">
+                            <img className='social-img' src='/github.png' alt='GitHub' />
+                        </a>
+                    </div>
                 </div>
                 <div className="hero-image">
                     <img src='/personal.jpeg' alt="Brady Mitchelmore" />
