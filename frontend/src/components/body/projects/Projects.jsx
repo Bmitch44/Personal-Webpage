@@ -11,9 +11,9 @@ const Projects = () => {
             "title": "Personal Webpage",
             "description": "This is my personal website. It was built using React and Python, showcasing my skills and projects.",
             "details": "The main features are a homepage, resume page, projects page, blog, and about page. The main challenge was creating popup modals to display extended information on a project or blog. I used Python, JavaScript, React, FastAPI, SQLite, HTML, and CSS. I first designed the layout in Figma, then used the CSS from Figma in my code.",
-            "tools": "React, Python, SQLite, JavaScript, HTML, CSS, FastAPI",
+            "tools": "React, Python, JavaScript, HTML, CSS, FastAPI, SQLModel",
             "link": "#",
-            "expanded": "In developing my personal webpage, I focused on creating a seamless user experience across multiple sections: the homepage, resume, projects, blog, and about page. The most significant challenge was implementing popup modals to display detailed information for projects and blog posts. This required a deep understanding of React's state management and component lifecycle. I utilized Python for backend logic with FastAPI, and SQLite for data storage, ensuring efficient data retrieval. The frontend was crafted using React and styled based on designs made in Figma, which allowed for a visually appealing and responsive design.",
+            "expanded": "In developing my personal webpage, I focused on creating a seamless user experience across multiple sections: the homepage, resume, projects, blog, and about page. The most significant challenge was implementing popup modals to display detailed information for projects and blog posts. This required a deep understanding of React's state management and component lifecycle. I utilized Python for backend logic with FastAPI, and SQLModel for data storage, ensuring efficient data retrieval. The frontend was crafted using React and styled based on designs made in Figma, which allowed for a visually appealing and responsive design.",
             "video": null
         },
         {

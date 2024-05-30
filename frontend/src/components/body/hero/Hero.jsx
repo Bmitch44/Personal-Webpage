@@ -6,7 +6,7 @@ const Hero = () => {
         {
             title: 'Personal Webpage',
             description: 'This is my personal website. It was built using React and Python, showcasing my skills and projects.',
-            tools: 'React, Python, Sqlite3, Javascript, HTML, CSS',
+            tools: 'React, Python, Javascript, HTML, CSS, FastAPI, SQLModel',
             link: '/projects'
         },
         {
