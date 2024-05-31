@@ -15,7 +15,7 @@
 .navbar-contents {
     display: flex;
     max-width: var(--navbar-width);
-    width: 95%;
+    width: 92%;
     justify-content: space-between;
     align-items: center;
     flex: 1 0 0;
@@ -36,13 +36,23 @@
     gap: 12px;
 }
 
+.hamburger-menu-icon {
+    display: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.hamburger-menu-icon:hover {
+    background-color: #f0f0f0;
+}
+
 @media (max-width: 768px) {
     .navbar {
         height: 50px;
     }
 
     .navbar-contents {
-        width: 100%;
+        width: 92%;
         padding: 0 20px;
     }
 
@@ -52,6 +62,10 @@
 
     .navbar-items {
         display: none;
+    }
+
+    .hamburger-menu-icon {
+        display: block;
     }
 };
 
@@ -61,7 +75,7 @@
     }
 
     .navbar-contents {
-        width: 100%;
+        width: 92%;
         padding: 0 20px;
     }
 
@@ -71,5 +85,9 @@
 
     .navbar-items {
         display: none;
+    }
+
+    .hamburger-menu-icon {
+        display: block;
     }
 }
