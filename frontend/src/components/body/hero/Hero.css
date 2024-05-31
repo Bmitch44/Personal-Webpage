@@ -1,6 +1,7 @@
 .hero-container {
     display: flex;
-    width: var(--navbar-width);
+    max-width: var(--navbar-width);
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -94,12 +95,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: top;
+    flex-wrap: wrap;
     background: white;
     padding: 30px;
     margin: 10px 10px 20px 10px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
+    max-width: var(--navbar-width);
     width: 95%;
 }
   
@@ -108,8 +110,8 @@
     flex-direction: column;
     align-items: left;
     background: white;
-    width: 100%;
     max-width: 516px;
+    width: 100%;
 }
 
 .project-card h1 {
@@ -129,8 +131,8 @@
     margin: 10px 0 10px 0;
     border-radius: 15px;
     box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.1);
-    width: 100%;
     max-width: 476px;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -218,7 +220,8 @@
     border-radius: 15px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     font-family: 'SF Pro', sans-serif;
-    width: var(--navbar-width);
+    max-width: var(--navbar-width);
+    width: 100%;
     margin: 15px 0 15px 0;
 }
 
