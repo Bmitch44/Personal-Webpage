@@ -71,3 +71,16 @@
 .tools strong {
     color: #333;
 }
+
+@media (max-width: 768px) {
+    .modal-overlay {
+        align-items: flex-start;
+        padding-top: 10px;
+    }
+
+    .modal-content {
+        max-height: 90vh; /* 90% of the viewport height */
+        width: 100%;
+        overflow-y: auto; /* add scroll if content is larger than the container */
+    }
+}
