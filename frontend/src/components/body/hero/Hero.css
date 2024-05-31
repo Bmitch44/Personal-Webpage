@@ -89,6 +89,20 @@
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+@media (max-width: 768px) {
+    .hero-image img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-image img {
+        width: 125px;
+        height: 125px;
+    }
+}
   
 .projects {
     display: flex;
