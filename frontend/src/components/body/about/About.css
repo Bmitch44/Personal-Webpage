@@ -6,8 +6,8 @@
     border-radius: 15px;
     font-family: 'SF Pro', sans-serif;
     max-width: var(--navbar-width);
-    width: 100%;
-    margin: 30px 0 30px 0;
+    width: 90%;
+    margin: 30px 30px 30px 30px;
 }
 
 .about-container h2 {
