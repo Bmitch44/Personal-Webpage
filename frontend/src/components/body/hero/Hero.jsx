@@ -69,7 +69,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="skills-container">
-                <h2>Languages</h2>
+                <h2 className='title'>Languages</h2>
                 <div className="skills-grid">
                 {skills.map((skill, index) => (
                     <div className="skill-item" key={index}>
@@ -80,7 +80,7 @@ const Hero = () => {
             </div>
             <div className="projects" id="projects">
                 <div className="project-card">
-                    <h1>Featured Projects</h1>
+                    <h1 className='title'>Featured Projects</h1>
                     {projects.map((project, index) => (
                     <a href={project.link} className="project-card-content" key={index}>
                         <div className="project-details">
@@ -98,7 +98,7 @@ const Hero = () => {
                     ))}
                 </div>
                 <div className="project-card">
-                    <h1>Recent Blogs</h1>
+                    <h1 className='title'>Recent Blogs</h1>
                     {blogs.map((blog, index) => (
                     <div className="project-card-content" key={index}>
                         <div className="project-details">

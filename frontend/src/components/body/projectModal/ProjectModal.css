@@ -23,7 +23,7 @@
     text-align: left;
 }
   
-.h2.title {
+.title {
     font-size: 1.5em;
     margin: 0 0 0 0;
     color: #333;
@@ -82,5 +82,31 @@
         max-height: 90vh; /* 90% of the viewport height */
         width: 100%;
         overflow-y: auto; /* add scroll if content is larger than the container */
+    }
+
+    .title {
+        font-size: 1.3em;
+    }
+
+    .text {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 20px;
+    }
+
+    .title {
+        font-size: 1.1em;
+    }
+
+    .text {
+        font-size: 0.7em;
+    }
+
+    .modal-link {
+        padding: 8px 16px;
     }
 }
