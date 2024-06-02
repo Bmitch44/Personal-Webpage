@@ -15,12 +15,11 @@
     justify-content: space-between;
     align-items: center;
     background: white;
-    padding: 30px;
-    margin: 20px 10px 10px 10px;
+    margin: 20px 0 10px 0;
     border-radius: 15px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
     max-width: var(--navbar-width);
-    width: 95%;
+    width: 100%;
 }
 
 .socials {
@@ -31,6 +30,7 @@
     gap: 10px;
     height: 35px;
     width: 75px;
+    margin: 0 0 30px 30px;
 }
 
 .social-link {
@@ -56,13 +56,13 @@
   
 .hero-text h1 {
     font-size: 2.0em;
-    margin: 0 0 0.2em 0;
+    margin: 30px 0 0.2em 30px;
     color: #333;
 }
   
 .hero-text p {
     font-size: 1.0em;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em 30px;
     color: #666;
 }
   
@@ -84,24 +84,16 @@
   
 .hero-image img {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 50px;
+    min-height: 50px;
+    width: 90%;
+    height: 90%;
     object-fit: cover;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-@media (max-width: 768px) {
-    .hero-image img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-image img {
-        width: 125px;
-        height: 125px;
-    }
+    margin: 0 30px 0 0;
+    aspect-ratio: 1/1;
 }
   
 .projects {
@@ -111,12 +103,11 @@
     align-items: top;
     flex-wrap: wrap;
     background: white;
-    padding: 30px;
     margin: 10px 10px 20px 10px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: var(--navbar-width);
-    width: 95%;
+    width: 100%;
 }
   
 .project-card {
@@ -126,6 +117,7 @@
     background: white;
     max-width: 516px;
     width: 100%;
+    margin: 30px;
 }
 
 .project-card h1 {
@@ -278,4 +270,62 @@
 .skill-logo {
     width: 30px;
     height: 30px;
+}
+
+.title h1 {
+    font-size: 2.0em;
+}
+
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 1.5em;
+    }
+    .title h1 {
+        font-size: 1.5em;
+    }
+    .project-card h1 {
+        font-size: 1.5em;
+    }
+    .skills-container h2 {
+        font-size: 1.2em;
+    }
+    .project-details h3 {
+        font-size: 0.9em;
+    }
+    .project-details h4 {
+        font-size: 0.7em;
+    }
+    .project-details p {
+        font-size: 0.5em;
+    }
+    .hero-text p {
+        font-size: 0.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 1.2em;
+    }
+    .title h1 {
+        font-size: 1.2em;
+    }
+    .project-card h1 {
+        font-size: 1.2em;
+    }
+    .skills-container h2 {
+        font-size: 1.0em;
+    }
+    .project-details h3 {
+        font-size: 0.8em;
+    }
+    .project-details h4 {
+        font-size: 0.6em;
+    }
+    .project-details p {
+        font-size: 0.4em;
+    }
+    .hero-text p {
+        font-size: 0.4em;
+    }
 }
