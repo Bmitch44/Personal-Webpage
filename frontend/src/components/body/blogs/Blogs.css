@@ -6,7 +6,7 @@
     border-radius: 15px;
     font-family: 'SF Pro', sans-serif;
     max-width: var(--navbar-width);
-    width: 100%;
+    width: 90%;
     padding: 0 0 20px 0;
     margin: 30px 0 30px 0;
 }

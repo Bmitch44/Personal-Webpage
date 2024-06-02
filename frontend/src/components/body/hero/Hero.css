@@ -1,7 +1,7 @@
 .hero-container {
     display: flex;
     max-width: var(--navbar-width);
-    width: 100%;
+    width: 90%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -146,7 +146,7 @@
     border-radius: 15px;
     box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, 0.1);
     max-width: 476px;
-    width: 100%;
+    width: 95%;
     text-decoration: none;
 }
 
@@ -252,7 +252,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-    margin: 0 40px 40px 30px;
+    margin: 0 0 40px 30px;
+    gap: 20px;
 }
 
 .skill-item {
@@ -261,7 +262,6 @@
     justify-content: center;
     flex-direction: column;
     background: #fff;
-    margin: 0 20px 0 0;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
