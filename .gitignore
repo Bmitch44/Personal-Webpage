@@ -3,3 +3,13 @@ venv/
 
 # ds store
 .DS_Store
+
+# environment variables
+.env
+
+# pycache
+__pycache__/
+__pycache__
+
+# database files
+*.db
