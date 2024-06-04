@@ -7,6 +7,8 @@ import Resume from './components/body/resume/Resume';
 import Projects from './components/body/projects/Projects';
 import Blogs from './components/body/blogs/Blogs';
 import About from './components/body/about/About';
+import Login from './components/admin/login/Login';
+import Dashboard from './components/admin/dashboard/Dashboard';
 import './App.css';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
                     <Route path="/projects" element={<Projects />} />
                     <Route path="/blog" element={<Blogs />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/admin" element={<Login />} />
+                    <Route path="/admin-dashboard" element={<Dashboard />} />
                 </Routes>
                 <Analytics />
                 <SpeedInsights />
