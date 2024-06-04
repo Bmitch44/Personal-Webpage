@@ -7,6 +7,9 @@ class Admin(SQLModel, table=True):
     hashed_password: str
     logged_in: bool = False
 
+class AdminCreate(SQLModel):
+    email: str
+    password: str
 
 class Project(SQLModel, table=True):
     id: int = Field(primary_key=True)
