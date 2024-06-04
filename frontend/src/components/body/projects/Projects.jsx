@@ -71,19 +71,19 @@ const Projects = () => {
                 {projects.map((project, index) => (
                 <div className="project-card-large" key={index} onClick={() => handleProjectClick(project)}>
                     <div className="project-details-large">
-                    <div className="project-title-container">
-                        <h3>{project.title}</h3>
-                        <div className='expand'>
-                        <span>Expand</span>
-                        <span className="arrow">&#8594;</span> {/* Right arrow character */}
+                        <div className="project-title-container">
+                            <h3>{project.title}</h3>
+                            <div className='expand'>
+                            <span>Expand</span>
+                            <span className="arrow">&#8594;</span> {/* Right arrow character */}
+                            </div>
                         </div>
-                    </div>
-                    <p className='description'>{project.description}</p>
-                    <p className='description'>{project.details}</p>
-                    <div className='tools'>
-                        <p><strong>Tools:</strong></p>
-                        <p><i>{project.tools}</i></p>
-                    </div>
+                        <p className='description'>{project.description}</p>
+                        <p className='description'>{project.details}</p>
+                        <div className='tools'>
+                            <p><strong>Tools:</strong></p>
+                            <p><i>{project.tools}</i></p>
+                        </div>
                     </div>
                 </div>
                 ))}

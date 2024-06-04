@@ -11,7 +11,7 @@ export const login = async (email, password) => {
     if (loginAdmin.status === 200) {
         console.log('Admin logged in successfully');
     }
-    return loginAdmin.data;
+    return loginAdmin.data[0];
 }
 
 export const logout = async () => {
@@ -20,4 +20,15 @@ export const logout = async () => {
         console.log('Admin logged out successfully');
     }
     return logoutAdmin.data;
+}
+
+export const checkSession = async (sessionId) => {
+    console.log('Checking session');
+    console.log(sessionId);
+    const checkSession = await axios.post(`${API_URL}/check-session/`, {session_id: sessionId});
+    if (checkSession.status === 200) {
+        return true;
+    } else {
+        return false;
+    }
 }

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useCookies } from 'react-cookie';
 import { login } from '../../../services/adminService';
 import './Login.css';
 
@@ -8,12 +9,15 @@ const Login = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const navigate = useNavigate();
+    const [cookies, setCookie] = useCookies(['sessionId']);
 
     const handleLogin = async (e) => {
         e.preventDefault();
         const response = await login(email, password);
         console.log(response);
         if (response) {
+            setCookie('sessionId', response, { path: '/', secure: true});
+            console.log({cookies})
             navigate('/admin-dashboard')
         }
     }
