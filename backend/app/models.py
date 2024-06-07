@@ -6,10 +6,14 @@ class Admin(SQLModel, table=True):
     email: str
     hashed_password: str
     logged_in: bool = False
+    session_id: str
 
 class AdminCreate(SQLModel):
     email: str
     password: str
+
+class AdminCheck(SQLModel):
+    session_id: str
 
 class Project(SQLModel, table=True):
     id: int = Field(primary_key=True)
