@@ -29,7 +29,7 @@ const Resume = () => {
                 <div className="resume-section">
                     <h2>Skills</h2>
                     <ul>
-                        <li><strong>Programming Languages:</strong> Python, JavaScript, Java, C, SQL</li>
+                        <li><strong>Programming Languages:</strong> Python, TypeScript, JavaScript, Java, C, SQL</li>
                         <li><strong>Markup Languages:</strong> HTML, Markdown, CSS, Latex</li>
                         <li><strong>Frameworks and Libraries:</strong> Flask, Requests, FastApi, Pandas, NumPy, Bottle, Bootstrap, React, TensorFlow</li>
                         <li><strong>Developer Tools:</strong> Visual Studio Code, Git/GitHub, Azure Cloud, AWS Cloud</li>
@@ -40,6 +40,18 @@ const Resume = () => {
             <div className="resume-card">
                 <div className="resume-section">
                     <h2>Experience</h2>
+
+                    <div className="job">
+                        <h3>Full Stack Developer</h3>
+                        <p><em>Play On! Canada</em> | Remote, Canada</p>
+                        <p>May 2023 – August 2024</p>
+                        <ul>
+                            <li>Developed event scheduling and score-keeping system, used by staff to manage over 1,000 players across multiple tournaments.</li>
+                            <li>Improved site performance by moving data processing to the client side, enhancing responsiveness and user experience.</li>
+                            <li>Built admin dashboard for tracking registrations, user types, and generating real-time reports for event management.</li>
+                            <li>Adapted quickly to TypeScript, contributing to both React and Node.js codebases, while integrating legacy workflows.</li>
+                        </ul>
+                    </div>
 
                     <div className="job">
                         <h3>Automation Engineer</h3>
