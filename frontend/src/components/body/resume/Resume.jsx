@@ -42,7 +42,7 @@ const Resume = () => {
                     <h2>Experience</h2>
 
                     <div className="job">
-                        <h3>Full Stack Developer</h3>
+                        <h3>Full-Stack Developer</h3>
                         <p><em>Play On! Canada</em> | Remote, Canada</p>
                         <p>May 2023 – August 2024</p>
                         <ul>

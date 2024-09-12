@@ -26,6 +26,15 @@ const Projects = () => {
             "video": null
         },
         {
+            "title": "Stock Price Prediction Model",
+            "description": "This was a project made using IPython and Yahoo Finance API to predict the price of a stock, given its historical data.",
+            "details": "The model uses the Yahoo Finance API to get the historical data of a stock, then uses that data to train a LSTM model. The model is then used to predict the price of the stock for the next 5 days",
+            "tools": "IPython, Pandas, Tensorflow, Yahoo Finance API",
+            "link": "#",
+            "expanded": "This project involed many steps. I first used the Yahoo Finance API to get the historical data of a stock. I then processed the data and trained a LSTM model. The model was then used to predict the price of the stock for the next 5 days. Once the model was trained, I used matplotlib to visualize the results.",
+            "video": null
+        },
+        {
             "title": "Reviews App Team Project",
             "description": "This is a team project for a reviews app. It was built using Python and Bottle, showcasing our teamwork and skills.",
             "details": "This app functions like a social media platform where users can log in, create posts (topics), and review those topics. Each topic could represent a project sprint, allowing users to rate and review. Data is persistently stored using SQLite.",
