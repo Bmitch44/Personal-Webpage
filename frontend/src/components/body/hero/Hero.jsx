@@ -16,6 +16,12 @@ const Hero = () => {
             link: '/projects'
         },
         {
+            title: 'Stock Price Prediction Model',
+            description: 'This was a project made using IPython and Yahoo Finance API to predict the price of a stock, given its historical data.',
+            tools: 'IPython, Pandas, Tensorflow, Yahoo Finance API',
+            link: '/projects'
+        },
+        {
             title: 'Reviews App Team Project',
             description: 'This is a team project for a reviews app. It was built using Python and Bottle, showcasing our teamwork and skills.',
             tools: 'Python, Bottle, Sqlite3, HTML, CSS',
