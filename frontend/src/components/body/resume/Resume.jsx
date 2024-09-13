@@ -21,7 +21,7 @@ const Resume = () => {
                     <p><strong>Memorial University of Newfoundland</strong></p>
                     <p>Bachelor of Science, Computer Science (Smart Systems)</p>
                     <p>Expected Graduation Date: April 2026</p>
-                    <p>Average: 80%</p>
+                    <p>Average: 79%</p>
                 </div>
             </div>
 
