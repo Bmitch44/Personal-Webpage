@@ -45,9 +45,11 @@ const Hero = () => {
 
     const skills = [
         { name: 'Python', logo: '/python.png' },
+        { name: "TypeScript", logo: "/typescript.png" },
         { name: 'JavaScript', logo: '/javascript.png' },
         { name: 'Java', logo: '/java.png' },
         { name: 'C', logo: '/c.png' },
+        { name: 'PostgreSQL', logo: '/postgresql.png' },
         { name: 'SQL', logo: '/sql.png' },
         { name: 'HTML', logo: '/html.png' },
         { name: 'CSS', logo: '/css.png' },
@@ -71,7 +73,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src='/personal.jpeg' alt="Brady Mitchelmore" />
+                    <img src='/personal2.jpeg' alt="Brady Mitchelmore" />
                 </div>
             </div>
             <div className="skills-container">
