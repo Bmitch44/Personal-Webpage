@@ -44,7 +44,7 @@ const Resume = () => {
                     <div className="job">
                         <h3>Full-Stack Developer</h3>
                         <p><em>Play On! Canada</em> | Remote, Canada</p>
-                        <p>May 2023 – August 2024</p>
+                        <p>May 2024 – August 2024</p>
                         <ul>
                             <li>Developed event scheduling and score-keeping system, used by staff to manage over 1,000 players across multiple tournaments.</li>
                             <li>Improved site performance by moving data processing to the client side, enhancing responsiveness and user experience.</li>
