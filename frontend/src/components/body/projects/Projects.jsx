@@ -14,7 +14,7 @@ const Projects = () => {
             "tools": "Python, FastAPI, React, TypeScript, yt-dlp, OpenAI API, MoviePy",
             "link": "#",
             "expanded": "The Short Form Content Generator is an innovative full-stack project that automates the creation of engaging short-form video content. The backend, built with Python and FastAPI, handles video processing and AI integration. It uses yt-dlp to download YouTube videos, leverages the OpenAI API for high-quality text-to-speech conversion, and employs MoviePy for sophisticated video editing and composition. The frontend, developed with React and TypeScript, provides a user-friendly interface for content creation and management. This project showcases my ability to integrate various technologies and APIs to create a powerful, end-to-end solution for rapid content generation, ideal for social media marketers and content creators.",
-            "video": "public/content-demo.mp4"
+            "video": "https://youtu.be/ok4H1P70TJ8"
         },
         {
             "title": "Personal Webpage",
@@ -59,7 +59,7 @@ const Projects = () => {
             "tools": "Python, AWS Textract, OpenAI API, Flask, HTML, CSS",
             "link": "#",
             "expanded": "The Textract Demo is a sophisticated tool designed to digitize and analyze unstructured data from scanned PDFs. The workflow involves preprocessing documents, extracting text and metadata using AWS Textract, and leveraging OpenAI's GPT-3 to enable interactive conversations with the digitized content. One of the main challenges was ensuring consistent extraction results from Textract, which was mitigated by thorough preprocessing of documents. The backend was developed using Flask, with data stored in SQLite and a simple HTML/CSS frontend for interaction. This project highlights my ability to integrate advanced machine learning services and build comprehensive solutions for real-world problems.",
-            "video": "public/textract-demo.mp4"
+            "video": "https://youtu.be/He9KpaIJ6_s"
         },
         {
             "title": "CropBytes GUI",
