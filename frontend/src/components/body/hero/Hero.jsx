@@ -4,29 +4,35 @@ import './Hero.css';
 const Hero = () => {
     const projects = [
         {
+            title: 'Short Form Content Generator',
+            description: 'A full-stack application that automates the creation of short-form video content using AI and video processing technologies.',
+            tools: 'Python, FastAPI, React, TypeScript, yt-dlp, OpenAI API, MoviePy',
+            link: '/projects'
+        },
+        {
             title: 'Personal Webpage',
             description: 'This is my personal website. It was built using React and Python, showcasing my skills and projects.',
             tools: 'React, Python, Javascript, HTML, CSS, FastAPI, SQLModel',
             link: '/projects'
         },
-        {
-            title: 'Jarvis',
-            description: 'This is a Apple Shortcut that I built to automate my daily tasks. It was built using Apple Shortcuts.',
-            tools: 'Apple Shortcuts, Groq API, Notion API',
-            link: '/projects'
-        },
+        // {
+        //     title: 'Jarvis',
+        //     description: 'This is a Apple Shortcut that I built to automate my daily tasks. It was built using Apple Shortcuts.',
+        //     tools: 'Apple Shortcuts, Groq API, Notion API',
+        //     link: '/projects'
+        // },
         {
             title: 'Stock Price Prediction Model',
             description: 'This was a project made using IPython and Yahoo Finance API to predict the price of a stock, given its historical data.',
             tools: 'IPython, Pandas, Tensorflow, Yahoo Finance API',
             link: '/projects'
         },
-        {
-            title: 'Reviews App Team Project',
-            description: 'This is a team project for a reviews app. It was built using Python and Bottle, showcasing our teamwork and skills.',
-            tools: 'Python, Bottle, Sqlite3, HTML, CSS',
-            link: '/projects'
-        },
+        // {
+        //     title: 'Reviews App Team Project',
+        //     description: 'This is a team project for a reviews app. It was built using Python and Bottle, showcasing our teamwork and skills.',
+        //     tools: 'Python, Bottle, Sqlite3, HTML, CSS',
+        //     link: '/projects'
+        // },
         {
             title: 'Textract Demo',
             description: 'An unstructured document analysis tool that I built using AWS Textract and OpenAI GPT-3.',
