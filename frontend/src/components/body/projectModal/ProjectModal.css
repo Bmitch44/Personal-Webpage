@@ -8,21 +8,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto; /* Enable vertical scrolling */
+    max-height: 100vh; /* Limit the height to the viewport height */
 }
-  
+
 .modal-content {
     display: flex;
     flex-direction: column;
     position: relative;
     align-items: left;
     background: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     max-width: var(--navbar-width);
     width: 80%;
     text-align: left;
+    max-height: 90vh; /* Limit the height to 90% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling within the content */
 }
-  
+
 .title {
     font-size: 1.5em;
     margin: 0 0 0 0;
@@ -109,4 +113,18 @@
     .modal-link {
         padding: 8px 16px;
     }
+}
+
+.video-container {
+    margin-top: 20px;
+}
+
+.video-container h3 {
+    margin-bottom: 10px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    max-height: 50vh; /* Limit video height to 50% of the viewport height */
 }
