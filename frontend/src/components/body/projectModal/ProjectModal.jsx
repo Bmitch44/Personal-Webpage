@@ -18,6 +18,15 @@ const ProjectModal = ({ show, onClose, project }) => {
                     <p><strong>Tools:</strong></p>
                     <p><i>{project.tools}</i></p>
                 </div>
+                {project.video && (
+                    <div className="video-container">
+                        <h3>Demo Video</h3>
+                        <video controls width="100%">
+                            <source src={project.video} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                )}
             </div>
         </div>
     );

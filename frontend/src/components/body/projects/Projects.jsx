@@ -8,6 +8,15 @@ const Projects = () => {
 
     const projects = [
         {
+            "title": "Short Form Content Generator",
+            "description": "A full-stack application that automates the creation of short-form video content using AI and video processing technologies.",
+            "details": "Built with Python (FastAPI) backend and React TypeScript frontend. Utilizes yt-dlp for YouTube video downloads, OpenAI for text-to-speech, and MoviePy for video editing.",
+            "tools": "Python, FastAPI, React, TypeScript, yt-dlp, OpenAI API, MoviePy",
+            "link": "#",
+            "expanded": "The Short Form Content Generator is an innovative full-stack project that automates the creation of engaging short-form video content. The backend, built with Python and FastAPI, handles video processing and AI integration. It uses yt-dlp to download YouTube videos, leverages the OpenAI API for high-quality text-to-speech conversion, and employs MoviePy for sophisticated video editing and composition. The frontend, developed with React and TypeScript, provides a user-friendly interface for content creation and management. This project showcases my ability to integrate various technologies and APIs to create a powerful, end-to-end solution for rapid content generation, ideal for social media marketers and content creators.",
+            "video": "public/content-demo.mp4"
+        },
+        {
             "title": "Personal Webpage",
             "description": "This is my personal website. It was built using React and Python, showcasing my skills and projects.",
             "details": "The main features are a homepage, resume page, projects page, blog, and about page. The main challenge was creating popup modals to display extended information on a project or blog. I used Python, JavaScript, React, FastAPI, SQLite, HTML, and CSS. I first designed the layout in Figma, then used the CSS from Figma in my code.",
@@ -50,7 +59,7 @@ const Projects = () => {
             "tools": "Python, AWS Textract, OpenAI API, Flask, HTML, CSS",
             "link": "#",
             "expanded": "The Textract Demo is a sophisticated tool designed to digitize and analyze unstructured data from scanned PDFs. The workflow involves preprocessing documents, extracting text and metadata using AWS Textract, and leveraging OpenAI's GPT-3 to enable interactive conversations with the digitized content. One of the main challenges was ensuring consistent extraction results from Textract, which was mitigated by thorough preprocessing of documents. The backend was developed using Flask, with data stored in SQLite and a simple HTML/CSS frontend for interaction. This project highlights my ability to integrate advanced machine learning services and build comprehensive solutions for real-world problems.",
-            "video": "https://github.com/yourusername/textract-demo"
+            "video": "public/textract-demo.mp4"
         },
         {
             "title": "CropBytes GUI",
